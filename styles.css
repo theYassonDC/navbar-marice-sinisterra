@@ -1,0 +1,69 @@
+:root {
+    --color-primary: #d1d1d1;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+.nav {
+    display: flex;
+    gap: 2rem;
+    background-color: #1c58ff;
+    align-items: center;
+    min-height: 3.1rem;
+    flex-wrap: wrap;
+}
+
+.nav>h1 {
+    display: flex;
+    gap: 5px;
+    margin-left: 1rem;
+    align-items: center;
+}
+
+.nav>h1>img {
+    width: 2rem;
+    height: 2rem;
+}
+
+.nav>li {
+    list-style: none;
+}
+
+.nav>li>a {
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+.nav>li>a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav>li>select {
+    background-color: transparent;
+    border: none;
+    padding-right: 2px;
+    margin: 0;
+    width: 100%;
+    border-radius: 0;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    line-height: inherit;
+    color: #d1d1d1;
+    outline: none;
+}
+.nav>li>select:hover {
+    color: #fff;
+}
+
+
+.nav>li>select>option {
+    background-color: #1c58ff;
+    transition: all 3s ease; 
+}
